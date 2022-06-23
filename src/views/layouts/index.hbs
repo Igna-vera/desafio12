@@ -8,7 +8,7 @@
         <title></title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- CSS -->
         <link href="/styles.css" rel="stylesheet" />
         
     </head>
@@ -21,9 +21,8 @@
                     {{>navlinks}}
                 </div>
             </div>
-            <!-- Page content wrapper-->
-            <div id="page-content-wrapper">
-                <!-- Top navigation-->
+                       <div id="page-content-wrapper">
+                <!-- nav-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                     <div class="container-fluid">
                         <button class="btn btn-primary btn-sm" id="sidebarToggle">Toggle Menu</button>
@@ -42,15 +41,15 @@
                         </div>
                     </div>
                 </nav>
-                <!-- Page content-->
+                <!--content-->
                 <div class="container-fluid px-5 pt-3">
                     {{{body}}}
                 </div>
             </div>
         </div>
-        <!-- Bootstrap core JS-->
+        <!-- Bootstrap-->
         <script defer src="bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+        <!--JS-->
         <script src="/scripts.js"></script>
     </body>
 </html>
